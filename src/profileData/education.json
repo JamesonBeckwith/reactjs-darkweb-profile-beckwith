@@ -1,0 +1,49 @@
+[
+  {
+    "key": "college",
+    "college": [
+      {
+        "id": "c0",
+        "name": "Laramie County Community College",
+        "start": "08//2020",
+        "end": "05//2022",
+        "gpa": 3.9,
+        "graduated": true
+      },
+      {
+        "id": "c1",
+        "name": "Southern Adventist University",
+        "start": "06//2022",
+        "end": "05//2023",
+        "gpa": 3.7,
+        "graduated": false
+      }
+    ]
+  },
+  {
+    "key": "highschool",
+    "highschool": [
+      {
+        "id": "h0",
+        "name": "Orian's Belt Christian Academy",
+        "start": "08//2016",
+        "end": "05//2020",
+        "gpa": null,
+        "graduated": true
+      }
+    ]
+  },
+  {
+    "key": "hobbies",
+    "hobbies": []
+  },
+  {
+    "key": "extra",
+    "extra": [
+      {
+        "id": "e0",
+        "name": "Teenpact Ministries"
+      }
+    ]
+  }
+]

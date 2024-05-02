@@ -1,0 +1,12 @@
+.introductionArray {
+    padding: 0;
+    font-style: italic;
+}
+.flexBox {
+    display: flex;
+    flex-direction: row;
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}

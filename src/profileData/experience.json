@@ -1,0 +1,92 @@
+[
+  {
+    "key": "work",
+    "work": [
+      {
+        "id": "w0",
+        "name": "Murdoch's Ranch and Home Supply",
+        "title": "Sale's Associate/Hardside",
+        "start": "06//2019",
+        "end": "06//2022",
+        "type": "Full-Time & Part-Time",
+        "current": false
+      },
+      {
+        "id": "w2",
+        "name": "Tek Systems",
+        "title": "Dell Technologies - Surge Labor",
+        "start": "05//2020",
+        "end": "07//2020",
+        "type": "Contract",
+        "current": false
+      },
+      {
+        "id": "w5",
+        "name": "Tek Systems",
+        "title": "NRTC - Help Desk ???",
+        "start": "06//2023",
+        "end": "10//2023",
+        "type": "Contract",
+        "current": false
+      },
+
+      {
+        "id": "w1",
+        "name": "Laramie County Community College",
+        "title": "Support Desk ????",
+        "start": "10//2020",
+        "end": "10//2021",
+        "type": "Student Worker",
+        "current": false
+      },
+      {
+        "id": "w3",
+        "name": "Laramie County Community College",
+        "title": "Student Government Association - Ex Officio",
+        "start": "10//2021",
+        "end": "05//2022",
+        "type": "Student Worker",
+        "current": false
+      },
+      {
+        "id": "w4",
+        "name": "Laramie County Community College",
+        "title": "IT Department helper",
+        "start": "03//2022",
+        "end": "05//2022",
+        "type": "Student Worker",
+        "current": false
+      }
+    ]
+  },
+  {
+    "key": "volunteer",
+    "volunteer": [
+      {
+        "id": "v0",
+        "name": "AWANA youth ministries",
+        "start": "",
+        "end": "12/2018",
+        "current": false
+      },
+      {
+        "id": "v2",
+        "name": "Laramie County Community College",
+        "start": "03//2022",
+        "end": "03//2022",
+        "current": false
+      },
+      {
+        "id": "v1",
+        "name": "vita something or other...",
+        "current": false
+      },
+      {
+        "id": "v3",
+        "name": "Pathfinders",
+        "start": "10//2022",
+        "current": false
+      }
+    ]
+  }
+]
