@@ -11,7 +11,7 @@ function HomeView() {
         <div className="navigationBar">
           <NavigationBar />
         </div>
-        <div className="introductionArray">
+        <div className="contentBody">
           {infoRaw &&
             infoRaw.map((info) => (
               <div className="introductionInformation" key={info.lName}>
