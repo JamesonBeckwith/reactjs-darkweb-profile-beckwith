@@ -31,6 +31,10 @@ function App() {
       path: "/aboutme",
       element: <AboutmeView />,
     },
+    {
+      path: "*",
+      element: <PageView />
+    }
   ]);
 
   useEffect(() => {

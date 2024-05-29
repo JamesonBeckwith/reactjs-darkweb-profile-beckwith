@@ -1,12 +1,114 @@
-.introductionArray {
+/* .introductionArray {
     padding: 0;
     font-style: italic;
-}
-.flexBox {
+  }
+  
+  .flexBox {
     display: flex;
     flex-direction: row;
-
+  
     padding: 0;
     margin: 0;
-    width: 100%;
-}
+  
+    width: calc(100% - 500px);
+    justify-content: space-between;
+  }
+  
+  .contentBody {
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .navigationBar {
+    width: 250px;
+    height: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .footerBar {
+    width: 250px;
+    height: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  } */
+
+  /* ----------------------------------------------------------------- */
+    .introductionArray  {
+    padding: 0;
+    font-style: italic;
+  }
+
+  /*
+  .contentBody {
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+    position: relative;  
+  }
+  
+  .navigationBar {
+    width: 250px;
+    height: 100vh;  // Set the height to match the viewport height
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .footerBar {
+    width: 250px;
+    height: 60px; 
+    // Set a fixed height for footer bar
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    bottom: 0; 
+    // Add this property to position the footer bar at the bottom of the viewport
+  }     */
+
+  .flexBox {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* set the height to match the viewport height */
+  }
+  
+  .navigationBar {
+    width: 15%; /* adjust this value to set the width of the navigation bar */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    flex-shrink: 0; /* prevent the navigation bar from shrinking when the content is scrolled */
+  }
+  
+  .contentBody {
+    flex-grow: 1; /* make the main content section fill the available space */
+    overflow-y: auto; /* enable vertical scrolling */
+    padding: 20px;
+  }
+  
+  .footerBar {
+    width: 15%; /* adjust this value to set the width of the footer bar */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    flex-shrink: 0; /* prevent the footer bar from shrinking when the content is scrolled */
+  }
