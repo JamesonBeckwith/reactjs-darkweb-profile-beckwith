@@ -21,9 +21,6 @@
 }
 
 /* navigation bar */
-.logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
 .navBar {
     padding: 30px;
 }
@@ -44,7 +41,14 @@
   .logo.react:hover {
     filter: drop-shadow(0 0 2em #61dafbaa);
   }
+  .logo.nginx:hover {
+    filter: drop-shadow(0 0 2em #1ba30eaa);
+  }
+  .logo.tor:hover {
+    filter: drop-shadow(0 0 2em #8628b6aa);
+  }
   
+  /* this spins the react logo */
   @keyframes logo-spin {
     from {
       transform: rotate(0deg);
@@ -52,6 +56,10 @@
     to {
       transform: rotate(360deg);
     }
+  }
+  /* this breathes the nginx logo */
+  @keyframes breath {
+   
   }
   
   @media (prefers-reduced-motion: no-preference) {

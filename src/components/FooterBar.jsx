@@ -1,5 +1,7 @@
-import reactLogo from "../assets/react.svg";
-import viteLogo from "/vite.svg";
+import viteLogo from "../assets/images/techStack/vite.svg"
+import reactLogo from "../assets/images/techStack/react.svg"
+import nginxLogo from "../assets/images/techStack/nginx.png"
+import torLogo from "../assets/images/techStack/tor.png"
 import "../App.css";
 import "./Components.css";
 
@@ -14,14 +16,12 @@ export default function footerBar() {
             <a href="https://react.dev" target="_blank">
               <img src={reactLogo} className="logo react" alt="React logo" />
             </a>
-          </div>
-          <h1>Vite + React</h1>
-          <div className="card">
-            <p>
-              I am using Vite, ReactJS, and Nginx pushed through Tor to host this site. If you
-              want to see the source code for this project, you can see it on my
-              Github
-            </p>
+            <a href="https://nginx.org" target="_blank">
+              <img src={nginxLogo} className="logo nginx" alt="Nginx logo" />
+            </a>
+            <a href="https://torproject.org" target="_blank">
+              <img src={torLogo} className="logo tor" alt="Tor logo" />
+            </a>
           </div>
         </div>
         
